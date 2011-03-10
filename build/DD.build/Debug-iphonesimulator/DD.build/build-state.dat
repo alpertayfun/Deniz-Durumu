@@ -1,0 +1,965 @@
+TDD
+v7
+r0
+t321197294.043397
+cCheck dependencies
+cProcessInfoPlistFile /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/Info.plist DD-Info.plist
+cCompileXIB /Users/alpertayfun/Documents/DD/MainWindow.xib
+cCompileXIB /Users/alpertayfun/Documents/DD/RootViewController.xib
+cCompileXIB /Users/alpertayfun/Documents/DD/details.xib
+cCpResource build/Debug-iphonesimulator/DD.app/FBConnect.bundle ../facebook-iphone-sdk/src/FBConnect.bundle
+cCpResource build/Debug-iphonesimulator/DD.app/icon.png icon.png
+cProcessPCH /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch.gch DD_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/main.o /Users/alpertayfun/Documents/DD/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/DDAppDelegate.o /Users/alpertayfun/Documents/DD/Classes/DDAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/RootViewController.o /Users/alpertayfun/Documents/DD/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/NSObject+SBJSON.o /Users/alpertayfun/Documents/DD/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/NSString+SBJSON.o /Users/alpertayfun/Documents/DD/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonBase.o /Users/alpertayfun/Documents/DD/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonParser.o /Users/alpertayfun/Documents/DD/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonWriter.o /Users/alpertayfun/Documents/DD/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/details.o /Users/alpertayfun/Documents/DD/Classes/../details.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBConnectGlobal.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBConnectGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBSession.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBSession.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBRequest.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBXMLHandler.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBXMLHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBLoginButton.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBDialog.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBLoginDialog.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBPermissionDialog.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBPermissionDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBStreamDialog.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBStreamDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/DD normal i386
+cGenerateDSYMFile /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app.dSYM /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/DD
+cTouch /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004A11E8210000000000002407
+t1242687521
+s9223
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/dlfcn.h
+c000000004AB98DF40000000000000B1C
+t1253674484
+s2844
+
+N/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBConnect.bundle
+c000000004B510E4F0000000000000066
+t1263603279
+s102
+
+N/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBConnect/FBConnect.h
+c000000004D39A4A200000000000002E8
+t1295623330
+s744
+i"FBSession.h"
+i"FBRequest.h"
+i"FBLoginButton.h"
+i"FBLoginDialog.h"
+i"FBPermissionDialog.h"
+i"FBStreamDialog.h"
+
+N/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBConnectGlobal.m
+c000000004B510E4F0000000000000515
+t1263603279
+s1301
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBDialog.m
+c000000004B5F3E2900000000000052B1
+t1264533033
+s21169
+i"FBConnect/FBDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginButton.m
+c000000004B510E4F0000000000001476
+t1263603279
+s5238
+i"FBConnect/FBLoginButton.h"
+i"FBConnect/FBLoginDialog.h"
+i<dlfcn.h>
+
+N/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginDialog.m
+c000000004B510E4F000000000000100E
+t1263603279
+s4110
+i"FBConnect/FBLoginDialog.h"
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBPermissionDialog.m
+c000000004B510E4F0000000000000C88
+t1263603279
+s3208
+i"FBConnect/FBPermissionDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBRequest.m
+c000000004D74DC370000000000002EFC
+t1299504183
+s12028
+i"FBConnect/FBRequest.h"
+i"FBConnect/FBSession.h"
+i"FBXMLHandler.h"
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBSession.m
+c000000004B510E4F000000000000215A
+t1263603279
+s8538
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBStreamDialog.m
+c000000004B510E4F00000000000009B1
+t1263603279
+s2481
+i"FBConnect/FBStreamDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBXMLHandler.m
+c000000004B510E4F0000000000001148
+t1263603279
+s4424
+i"FBXMLHandler.h"
+
+N/Users/alpertayfun/Documents/DD/Classes/../details.m
+c000000004D74D9F70000000000001200
+t1299503607
+s4608
+i"details.h"
+
+N/Users/alpertayfun/Documents/DD/Classes/DDAppDelegate.h
+c000000004D74D10D0000000000000235
+t1299501325
+s565
+i<UIKit/UIKit.h>
+
+N/Users/alpertayfun/Documents/DD/Classes/DDAppDelegate.m
+c000000004D74D3900000000000000F9B
+t1299501968
+s3995
+i"DDAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/alpertayfun/Documents/DD/Classes/RootViewController.h
+c000000004D74D0E30000000000000199
+t1299501283
+s409
+i<UIKit/UIKit.h>
+
+N/Users/alpertayfun/Documents/DD/Classes/RootViewController.m
+c000000004D74DC3B0000000000001FAA
+t1299504187
+s8106
+i"RootViewController.h"
+i"JSON.h"
+i"details.h"
+
+N/Users/alpertayfun/Documents/DD/DD_Prefix.pch
+c000000004D74C5980000000000000136
+t1299498392
+s310
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alpertayfun/Documents/DD/Icon.png
+c000000004D74DC860000000000002885
+t1299504262
+s10373
+
+N/Users/alpertayfun/Documents/DD/IconImage_20100902184035630_NEW_WEB_ICON_155_155.png
+c000000004D74DC860000000000002885
+t1299504262
+s10373
+
+N/Users/alpertayfun/Documents/DD/JSON/JSON.h
+c000000004C5354180000000000000BE8
+t1280529432
+s3048
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/NSObject+SBJSON.h>
+i<JSON/NSString+SBJSON.h>
+
+N/Users/alpertayfun/Documents/DD/JSON/NSObject+SBJSON.h
+c000000004C535269000000000000085F
+t1280529001
+s2143
+i<Foundation/Foundation.h>
+
+N/Users/alpertayfun/Documents/DD/JSON/NSObject+SBJSON.m
+c000000004C535269000000000000077D
+t1280529001
+s1917
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/alpertayfun/Documents/DD/JSON/NSString+SBJSON.h
+c000000004C53526900000000000007F0
+t1280529001
+s2032
+i<Foundation/Foundation.h>
+
+N/Users/alpertayfun/Documents/DD/JSON/NSString+SBJSON.m
+c000000004C535269000000000000075D
+t1280529001
+s1885
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/alpertayfun/Documents/DD/JSON/SBJsonBase.h
+c000000004C5352690000000000000B82
+t1280529001
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/alpertayfun/Documents/DD/JSON/SBJsonBase.m
+c000000004C5352690000000000000AC1
+t1280529001
+s2753
+i"SBJsonBase.h"
+
+N/Users/alpertayfun/Documents/DD/JSON/SBJsonParser.h
+c000000004C5352690000000000000C8F
+t1280529001
+s3215
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/alpertayfun/Documents/DD/JSON/SBJsonParser.m
+c000000004C5352690000000000003B7A
+t1280529001
+s15226
+i"SBJsonParser.h"
+
+N/Users/alpertayfun/Documents/DD/JSON/SBJsonWriter.h
+c000000004C53526900000000000011D9
+t1280529001
+s4569
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/alpertayfun/Documents/DD/JSON/SBJsonWriter.m
+c000000004C53526900000000000020D8
+t1280529001
+s8408
+i"SBJsonWriter.h"
+
+N/Users/alpertayfun/Documents/DD/MainWindow.xib
+c000000004D74C5980000000000005FE0
+t1299498392
+s24544
+
+N/Users/alpertayfun/Documents/DD/RootViewController.xib
+c000000004D74CF230000000000004DD6
+t1299500835
+s19926
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/DD.LinkFileList
+c000000004D74DB7B00000000000007F3
+t1299503995
+s2035
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/DDAppDelegate.o
+t1299503394
+s55176
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBConnectGlobal.o
+t1299503995
+s7492
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBDialog.o
+t1299503995
+s108240
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBLoginButton.o
+t1299503995
+s59900
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBLoginDialog.o
+t1299503995
+s52116
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBPermissionDialog.o
+t1299503995
+s48220
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBRequest.o
+t1299504493
+s53908
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBSession.o
+t1299503995
+s37412
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBStreamDialog.o
+t1299503995
+s47540
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBXMLHandler.o
+t1299503995
+s22076
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/NSObject+SBJSON.o
+t1299503394
+s7368
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/NSString+SBJSON.o
+t1299503394
+s7260
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/RootViewController.o
+t1299504493
+s65364
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonBase.o
+t1299503395
+s13188
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonParser.o
+t1299503395
+s36860
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonWriter.o
+t1299503395
+s26688
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/details.o
+t1299503995
+s63220
+
+N/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/main.o
+t1299503394
+s6288
+
+N/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app
+t1299504494
+s374
+
+N/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app.dSYM
+t1299504494
+s102
+
+N/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/DD
+t1299504494
+s169820
+
+N/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/FBConnect
+t1299503890
+s374
+
+N/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/FBConnect.bundle
+t1299503995
+s102
+
+N/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/Icon.png
+t2
+s0
+
+N/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/IconImage_20100902184035630_NEW_WEB_ICON_155_155.png
+t2
+s0
+
+N/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/Info.plist
+t1299503393
+s571
+
+N/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/MainWindow.nib
+t1299503394
+s1504
+
+N/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/PkgInfo
+t1299503393
+s8
+
+N/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/RootViewController.nib
+t1299503394
+s1026
+
+N/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/details.nib
+t1299503394
+s764
+
+N/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/icon.png
+t1299504493
+s10373
+
+N/Users/alpertayfun/Documents/DD/details.h
+c000000004D74DB7A0000000000000292
+t1299503994
+s658
+i<UIKit/UIKit.h>
+i"FBConnect.h"
+
+N/Users/alpertayfun/Documents/DD/details.m
+c000000004D74B059000000000000058D
+t1299492953
+s1421
+i"details.h"
+
+N/Users/alpertayfun/Documents/DD/details.xib
+c000000004D74B0660000000000003CF7
+t1299492966
+s15607
+
+N/Users/alpertayfun/Documents/DD/icon.png
+c000000004D74DC860000000000002885
+t1299504262
+s10373
+
+N/Users/alpertayfun/Documents/DD/main.m
+c000000004D74C5980000000000000162
+t1299498392
+s354
+i<UIKit/UIKit.h>
+
+N/Users/alpertayfun/Documents/DD/src/FBConnect
+c000000004D74D6E70000000000000198
+t1299502823
+s408
+
+N/Users/alpertayfun/Documents/DD/src/FBConnect/FBConnect.h
+c000000004D39A4A200000000000002E8
+t1295623330
+s744
+i"FBSession.h"
+i"FBRequest.h"
+i"FBLoginButton.h"
+i"FBLoginDialog.h"
+i"FBPermissionDialog.h"
+i"FBStreamDialog.h"
+
+N/Users/alpertayfun/Documents/DD/src/FBConnect/FBConnectGlobal.h
+c000000004B510E4F0000000000001E6E
+t1263603279
+s7790
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alpertayfun/Documents/DD/src/FBConnect/FBDialog.h
+c000000004D38714F0000000000000EDF
+t1295544655
+s3807
+i"FBConnectGlobal.h"
+
+N/Users/alpertayfun/Documents/DD/src/FBConnect/FBLoginButton.h
+c000000004D3871560000000000000597
+t1295544662
+s1431
+i"FBSession.h"
+
+N/Users/alpertayfun/Documents/DD/src/FBConnect/FBLoginDialog.h
+c000000004D38715E00000000000002DD
+t1295544670
+s733
+i"FBDialog.h"
+i"FBRequest.h"
+
+N/Users/alpertayfun/Documents/DD/src/FBConnect/FBPermissionDialog.h
+c000000004D3871630000000000000382
+t1295544675
+s898
+i"FBLoginDialog.h"
+
+N/Users/alpertayfun/Documents/DD/src/FBConnect/FBRequest.h
+c000000004D387167000000000000114F
+t1295544679
+s4431
+i"FBConnectGlobal.h"
+
+N/Users/alpertayfun/Documents/DD/src/FBConnect/FBSession.h
+c000000004D38716B000000000000156F
+t1295544683
+s5487
+i"FBConnectGlobal.h"
+
+N/Users/alpertayfun/Documents/DD/src/FBConnect/FBStreamDialog.h
+c000000004D3871730000000000000835
+t1295544691
+s2101
+i"FBDialog.h"
+
+N/Users/alpertayfun/Documents/facebook-iphone-sdk/src/FBConnect/FBConnectGlobal.h
+c000000004B510E4F0000000000001E6E
+t1263603279
+s7790
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alpertayfun/Documents/facebook-iphone-sdk/src/FBConnect/FBDialog.h
+c000000004D38714F0000000000000EDF
+t1295544655
+s3807
+i"FBConnectGlobal.h"
+
+N/Users/alpertayfun/Documents/facebook-iphone-sdk/src/FBConnect/FBLoginButton.h
+c000000004D3871560000000000000597
+t1295544662
+s1431
+i"FBSession.h"
+
+N/Users/alpertayfun/Documents/facebook-iphone-sdk/src/FBConnect/FBLoginDialog.h
+c000000004D38715E00000000000002DD
+t1295544670
+s733
+i"FBDialog.h"
+i"FBRequest.h"
+
+N/Users/alpertayfun/Documents/facebook-iphone-sdk/src/FBConnect/FBPermissionDialog.h
+c000000004D3871630000000000000382
+t1295544675
+s898
+i"FBLoginDialog.h"
+
+N/Users/alpertayfun/Documents/facebook-iphone-sdk/src/FBConnect/FBRequest.h
+c000000004D387167000000000000114F
+t1295544679
+s4431
+i"FBConnectGlobal.h"
+
+N/Users/alpertayfun/Documents/facebook-iphone-sdk/src/FBConnect/FBSession.h
+c000000004D38716B000000000000156F
+t1295544683
+s5487
+i"FBConnectGlobal.h"
+
+N/Users/alpertayfun/Documents/facebook-iphone-sdk/src/FBConnect/FBStreamDialog.h
+c000000004D3871730000000000000835
+t1295544691
+s2101
+i"FBDialog.h"
+
+N/Users/alpertayfun/Documents/facebook-iphone-sdk/src/FBXMLHandler.h
+c000000004B510E4F00000000000003C9
+t1263603279
+s969
+i"FBConnect/FBConnectGlobal.h"
+
+N/var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch.gch
+t1299503394
+s15453392
+
+N/var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gshlixbvaemntwepifczeezobvhq/DD_Prefix.pch.gch
+t1299499965
+s15453392
+
+NDD-Info.plist
+c000000004D74C598000000000000038D
+t1299498392
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321197293#321197293#0(0"0(0#1#0"8610478880#0"0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/DDAppDelegate.o /Users/alpertayfun/Documents/DD/Classes/DDAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196194.852625
+e321196194.939529
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/DDAppDelegate.o
+x/Users/alpertayfun/Documents/DD/Classes/DDAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/alpertayfun/Documents/DD/Classes/DDAppDelegate.m321196194#321196194#0(0"0(0#0#55"/Users/alpertayfun/Documents/DD/Classes/DDAppDelegate.m8625545984#1795"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/Classes/DDAppDelegate.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/DDAppDelegate.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBConnectGlobal.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBConnectGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196795.243486
+e321196795.304094
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBConnectGlobal.o
+x/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBConnectGlobal.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBConnectGlobal.m321196795#321196795#0(0"0(0#0#76"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBConnectGlobal.m8611724864#1818"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBConnectGlobal.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBConnectGlobal.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBDialog.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196795.400527
+e321196795.618237
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBDialog.o
+x/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBDialog.m: In function '-[FBDialog initWithSession:]':
+o/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBDialog.m:325: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)
+lSLF07#2@77"Compile /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBDialog.m321196795#321196795#0(387"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBDialog.m: In function '-[FBDialog initWithSession:]':/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBDialog.m:325: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)1(22@187"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)321196795#115#272#0(6@69"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBDialog.m286225833#325#0#325#0#33"'*' is deprecated (declared at *)0(0#0#69"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBDialog.m8610365824#1804"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBDialog.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBDialog.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBLoginButton.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196795.369975
+e321196795.487768
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBLoginButton.o
+x/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginButton.m321196795#321196795#0(0"0(0#0#74"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginButton.m8610616480#1814"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginButton.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBLoginButton.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBLoginDialog.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196795.456896
+e321196795.559395
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginDialog.m321196795#321196795#0(0"0(0#0#74"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginDialog.m8610157440#1814"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBLoginDialog.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBLoginDialog.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBPermissionDialog.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBPermissionDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196795.487892
+e321196795.590828
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBPermissionDialog.o
+x/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBPermissionDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBPermissionDialog.m321196795#321196795#0(0"0(0#0#79"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBPermissionDialog.m8609802912#1824"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBPermissionDialog.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBPermissionDialog.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBRequest.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321197293.855460
+e321197293.973707
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBRequest.o
+x/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBRequest.m: In function '-[FBRequest parseXMLResponse:error:]':
+o/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBRequest.m:180: warning: class 'FBXMLHandler' does not implement the 'NSXMLParserDelegate' protocol
+lSLF07#2@78"Compile /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBRequest.m321197293#321197293#0(284"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBRequest.m: In function '-[FBRequest parseXMLResponse:error:]':/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBRequest.m:180: warning: class 'FBXMLHandler' does not implement the 'NSXMLParserDelegate' protocol1(22@74"Class 'FBXMLHandler' does not implement the 'NSXMLParserDelegate' protocol321197293#124#160#0(6@70"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBRequest.m321196983#180#0#180#0#45"class '*' does not implement the '*' protocol0(0#0#70"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBRequest.m8611757792#1806"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBRequest.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBRequest.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBSession.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBSession.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196795.244465
+e321196795.400394
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBSession.o
+x/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBSession.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBSession.m321196795#321196795#0(0"0(0#0#70"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBSession.m8611483776#1806"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBSession.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBSession.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBStreamDialog.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBStreamDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196795.489646
+e321196795.595940
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBStreamDialog.o
+x/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBStreamDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBStreamDialog.m321196795#321196795#0(0"0(0#0#75"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBStreamDialog.m8609644288#1816"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBStreamDialog.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBStreamDialog.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBXMLHandler.o /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBXMLHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196795.349383
+e321196795.456757
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBXMLHandler.o
+x/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBXMLHandler.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBXMLHandler.m321196795#321196795#0(0"0(0#0#73"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBXMLHandler.m8611056256#1812"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBXMLHandler.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/FBXMLHandler.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/NSObject+SBJSON.o /Users/alpertayfun/Documents/DD/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196194.854481
+e321196194.925909
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/alpertayfun/Documents/DD/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/alpertayfun/Documents/DD/JSON/NSObject+SBJSON.m321196194#321196194#0(0"0(0#0#54"/Users/alpertayfun/Documents/DD/JSON/NSObject+SBJSON.m8625127936#1796"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/JSON/NSObject+SBJSON.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/NSString+SBJSON.o /Users/alpertayfun/Documents/DD/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196194.905618
+e321196194.962677
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/alpertayfun/Documents/DD/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/alpertayfun/Documents/DD/JSON/NSString+SBJSON.m321196194#321196194#0(0"0(0#0#54"/Users/alpertayfun/Documents/DD/JSON/NSString+SBJSON.m8624623008#1796"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/JSON/NSString+SBJSON.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/RootViewController.o /Users/alpertayfun/Documents/DD/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321197293.853353
+e321197293.943175
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/RootViewController.o
+x/Users/alpertayfun/Documents/DD/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/alpertayfun/Documents/DD/Classes/RootViewController.m321197293#321197293#0(0"0(0#0#60"/Users/alpertayfun/Documents/DD/Classes/RootViewController.m8611098816#1805"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/Classes/RootViewController.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonBase.o /Users/alpertayfun/Documents/DD/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196194.926056
+e321196195.009358
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonBase.o
+x/Users/alpertayfun/Documents/DD/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/alpertayfun/Documents/DD/JSON/SBJsonBase.m321196194#321196195#0(0"0(0#0#49"/Users/alpertayfun/Documents/DD/JSON/SBJsonBase.m8624456000#1786"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/JSON/SBJsonBase.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonParser.o /Users/alpertayfun/Documents/DD/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196194.939675
+e321196195.082587
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonParser.o
+x/Users/alpertayfun/Documents/DD/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/alpertayfun/Documents/DD/JSON/SBJsonParser.m321196194#321196195#0(0"0(0#0#51"/Users/alpertayfun/Documents/DD/JSON/SBJsonParser.m8624124128#1790"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/JSON/SBJsonParser.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonWriter.o /Users/alpertayfun/Documents/DD/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196194.962817
+e321196195.070784
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/alpertayfun/Documents/DD/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/alpertayfun/Documents/DD/JSON/SBJsonWriter.m321196194#321196195#0(0"0(0#0#51"/Users/alpertayfun/Documents/DD/JSON/SBJsonWriter.m8623799360#1790"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/JSON/SBJsonWriter.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/details.o /Users/alpertayfun/Documents/DD/Classes/../details.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196795.241683
+e321196795.349250
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/details.o
+x/Users/alpertayfun/Documents/DD/Classes/../details.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/alpertayfun/Documents/DD/Classes/../details.m321196795#321196795#0(0"0(0#0#52"/Users/alpertayfun/Documents/DD/Classes/../details.m8601332864#1786"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/Classes/../details.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/details.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/details.o /Users/alpertayfun/Documents/DD/details.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321192766.132545
+e321192766.191201
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/details.o
+x/Users/alpertayfun/Documents/DD/details.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/alpertayfun/Documents/DD/details.m321192766#321192766#0(0"0(0#0#41"/Users/alpertayfun/Documents/DD/details.m8609050304#1743"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gshlixbvaemntwepifczeezobvhq/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/details.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/details.o0#
+
+CCompileC build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/main.o /Users/alpertayfun/Documents/DD/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196194.851757
+e321196194.905483
+r1
+xCompileC
+xbuild/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/main.o
+x/Users/alpertayfun/Documents/DD/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/alpertayfun/Documents/DD/main.m321196194#321196194#0(0"0(0#0#38"/Users/alpertayfun/Documents/DD/main.m8628289696#1769"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -include /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch -c /Users/alpertayfun/Documents/DD/main.m -o /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/alpertayfun/Documents/DD/MainWindow.xib
+s321196193.836190
+e321196194.282791
+r1
+xCompileXIB
+x/Users/alpertayfun/Documents/DD/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321196193#321196194#0(0"0(0#0#46"/Users/alpertayfun/Documents/DD/MainWindow.xib8623600448#544"    cd /Users/alpertayfun/Documents/DD    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/MainWindow.nib /Users/alpertayfun/Documents/DD/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/alpertayfun/Documents/DD/RootViewController.xib
+s321196193.836922
+e321196194.204641
+r1
+xCompileXIB
+x/Users/alpertayfun/Documents/DD/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib321196193#321196194#0(0"0(0#0#54"/Users/alpertayfun/Documents/DD/RootViewController.xib8622439200#560"    cd /Users/alpertayfun/Documents/DD    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/RootViewController.nib /Users/alpertayfun/Documents/DD/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/alpertayfun/Documents/DD/details.xib
+s321196193.837458
+e321196194.199284
+r1
+xCompileXIB
+x/Users/alpertayfun/Documents/DD/details.xib
+lSLF07#2@22"CompileXIB details.xib321196193#321196194#0(0"0(0#0#43"/Users/alpertayfun/Documents/DD/details.xib8622337088#538"    cd /Users/alpertayfun/Documents/DD    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/details.nib /Users/alpertayfun/Documents/DD/details.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/DD.app/FBConnect src/FBConnect
+s321196690.239125
+e321196690.244166
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DD.app/FBConnect
+xsrc/FBConnect
+lSLF07#2@18"Copy src/FBConnect321196690#321196690#0(0"0(0#0#45"/Users/alpertayfun/Documents/DD/src/FBConnect19140590477181040#445"    cd /Users/alpertayfun/Documents/DD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alpertayfun/Documents/DD/src/FBConnect /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app0#
+
+CCpResource build/Debug-iphonesimulator/DD.app/FBConnect.bundle ../facebook-iphone-sdk/src/FBConnect.bundle
+s321196795.231599
+e321196795.239661
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DD.app/FBConnect.bundle
+x../facebook-iphone-sdk/src/FBConnect.bundle
+lSLF07#2@48"Copy ../facebook-iphone-sdk/src/FBConnect.bundle321196795#321196795#0(0"0(0#0#75"/Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBConnect.bundle8609025632#475"    cd /Users/alpertayfun/Documents/DD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alpertayfun/Documents/DD/../facebook-iphone-sdk/src/FBConnect.bundle /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app0#
+
+CCpResource build/Debug-iphonesimulator/DD.app/Icon.png Icon.png
+r0
+
+CCpResource build/Debug-iphonesimulator/DD.app/IconImage_20100902184035630_NEW_WEB_ICON_155_155.png IconImage_20100902184035630_NEW_WEB_ICON_155_155.png
+r0
+
+CCpResource build/Debug-iphonesimulator/DD.app/icon.png icon.png
+s321197293.847729
+e321197293.852807
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DD.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png321197293#321197293#0(0"0(0#0#40"/Users/alpertayfun/Documents/DD/icon.png8607855872#440"    cd /Users/alpertayfun/Documents/DD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alpertayfun/Documents/DD/icon.png /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app0#
+
+CGenerateDSYMFile /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app.dSYM /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/DD
+s321197294.013221
+e321197294.041182
+r1
+xGenerateDSYMFile
+x/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app.dSYM
+x/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/DD
+lSLF07#2@94"GenerateDSYMFile build/Debug-iphonesimulator/DD.app.dSYM build/Debug-iphonesimulator/DD.app/DD321197294#321197294#0(0"0(0#0#69"/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/DD8613804000#347"    cd /Users/alpertayfun/Documents/DD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/DD -o /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app.dSYM0#
+
+CLd /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/DD normal i386
+s321197293.973785
+e321197294.013122
+r1
+xLd
+x/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/DD
+xnormal
+xi386
+lSLF07#2@74"Link /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/DD321197293#321197294#0(0"0(0#0#0"8613481888#840"    cd /Users/alpertayfun/Documents/DD    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -filelist /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/Objects-normal/i386/DD.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/DD0#
+
+CProcessInfoPlistFile /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/Info.plist DD-Info.plist
+s321196193.831813
+e321196193.836099
+r1
+xProcessInfoPlistFile
+x/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/Info.plist
+xDD-Info.plist
+lSLF07#2@21"Process DD-Info.plist321196193#321196193#0(0"0(0#0#45"/Users/alpertayfun/Documents/DD/DD-Info.plist8624254624#443"    cd /Users/alpertayfun/Documents/DD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DD-Info.plist -genpkginfo /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app/Info.plist0#
+
+CProcessPCH /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch.gch DD_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321196194.283000
+e321196194.851661
+r1
+xProcessPCH
+x/var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch.gch
+xDD_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile DD_Prefix.pch321196194#321196194#0(0"0(0#0#45"/Users/alpertayfun/Documents/DD/DD_Prefix.pch8632800768#1673"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I../../facebook-iphone-sdk/src -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -c /Users/alpertayfun/Documents/DD/DD_Prefix.pch -o /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gqghiemcyciyylgvmrizewdkndad/DD_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gshlixbvaemntwepifczeezobvhq/DD_Prefix.pch.gch DD_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321192765.411012
+e321192765.982127
+r1
+xProcessPCH
+x/var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gshlixbvaemntwepifczeezobvhq/DD_Prefix.pch.gch
+xDD_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile DD_Prefix.pch321192765#321192765#0(0"0(0#0#45"/Users/alpertayfun/Documents/DD/DD_Prefix.pch8606781120#1641"    cd /Users/alpertayfun/Documents/DD    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-generated-files.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-own-target-headers.hmap -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-all-target-headers.hmap -iquote /Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DD-project-headers.hmap -F/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator -I/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/include -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources/i386 -I/Users/alpertayfun/Documents/DD/build/DD.build/Debug-iphonesimulator/DD.build/DerivedSources -c /Users/alpertayfun/Documents/DD/DD_Prefix.pch -o /var/folders/4S/4SwFCJfbHM8z4H1f43UNhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DD_Prefix-gshlixbvaemntwepifczeezobvhq/DD_Prefix.pch.gch0#
+
+CTouch /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app
+s321197294.041268
+e321197294.043365
+r1
+xTouch
+x/Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app
+lSLF07#2@72"Touch /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app321197294#321197294#0(0"0(0#0#0"8613153184#259"    cd /Users/alpertayfun/Documents/DD    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/alpertayfun/Documents/DD/build/Debug-iphonesimulator/DD.app0#
+
