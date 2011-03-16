@@ -10,7 +10,6 @@
 // Constant for use with testDevices method.
 #define ADMOB_SIMULATOR_ID @"Simulator"
 
-
 @protocol AdMobDelegate<NSObject>
 
 
