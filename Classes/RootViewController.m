@@ -134,6 +134,36 @@ NSString const * APIKEY = @"91ebe09540369b9eda625437492d678e";
 	[pool release];
 }
 
+//retrieving city or sea heat / knot values
+-(void)updateCitys
+{
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc]init];
+	SBJsonParser *parser = [[SBJsonParser alloc] init];
+	//NSString *urls = [NSString stringWithFormat:@"http://%@.denizdurumu.com/city/?apikey=%@",APIHOST,APIKEY];
+    DDAppDelegate *mainDelegate = (DDAppDelegate *)[[UIApplication sharedApplication]delegate];
+    
+    NSString *urls = [NSString stringWithFormat:@"http://%@.denizdurumu.com/%@/%@/?apikey=%@",APIHOST,mainDelegate.customSearchQuery1,mainDelegate.customSearchQuery,APIKEY];
+    
+	NSLog(@"%@",urls);
+	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:urls]];
+	
+	NSData *response = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+	NSString *json_string = [[NSString alloc] initWithData:response encoding:NSUTF8StringEncoding];
+	
+	NSArray *statuses = [parser objectWithString:json_string error:nil];
+	arryData = [[NSMutableArray alloc] init];
+	arryData2 = [[NSMutableArray alloc] init];
+	for (NSDictionary *status in statuses)
+	{
+    
+			[arryData addObject:[status objectForKey:@"maxheat"]];
+	}
+
+	[tblSimpleTable reloadData];
+	[parser release];
+	[pool release];
+}
+
 -(BOOL)canBecomeFirstResponder {
     return YES;
 }
