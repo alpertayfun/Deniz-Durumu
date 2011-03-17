@@ -400,6 +400,10 @@ NSString const * APIKEY = @"91ebe09540369b9eda625437492d678e";
 	DDAppDelegate *mainDelegate = (DDAppDelegate *)[[UIApplication sharedApplication]delegate];
 	[mainDelegate setCustomSearchQuery:[arryData1 objectAtIndex:indexPath.row]];
 	[mainDelegate setCustomSearchQuery1:[arryData2 objectAtIndex:indexPath.row]];
+    
+    //cell accessoryType
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    
     return cell;
 }
 
