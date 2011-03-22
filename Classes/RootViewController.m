@@ -242,6 +242,30 @@ NSString const * APIKEY = @"91ebe09540369b9eda625437492d678e";
 - (void)viewDidAppear:(BOOL)animated {
 	[super viewDidAppear:animated];
 	[self becomeFirstResponder];
+    
+    //return views update location
+    
+    locationManager = [[CLLocationManager alloc] init];
+    [self.locationManager startUpdatingLocation];
+	NSLog(@"%.4f",locationManager.location.coordinate.longitude);
+	NSLog(@"%.4f",locationManager.location.coordinate.latitude);
+	
+	mapViewmain.mapType = MKMapTypeStandard;
+	mapViewmain.scrollEnabled = YES; 
+	mapViewmain.zoomEnabled = YES; 
+	mapViewmain.delegate = self;
+	
+	CLLocationCoordinate2D coords; 
+	coords.latitude = locationManager.location.coordinate.latitude; 
+	coords.longitude = locationManager.location.coordinate.longitude; 
+	MKCoordinateSpan span; 
+	span.latitudeDelta=0.02; 
+	span.longitudeDelta=0.02; 
+	
+	mapViewmain.region = MKCoordinateRegionMake( coords, span ); 
+	
+	
+	[self.locationManager stopUpdatingLocation];
 }
 - (void)viewDidDisappear:(BOOL)animated {
 	[self resignFirstResponder];
