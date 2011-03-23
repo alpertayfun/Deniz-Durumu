@@ -78,6 +78,38 @@ NSString const * APIKEY1 = @"91ebe09540369b9eda625437492d678e";
 	[parser release];
 
 }
+-(void)updateCitys
+{
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc]init];
+	SBJsonParser *parser = [[SBJsonParser alloc] init];
+	//NSString *urls = [NSString stringWithFormat:@"http://%@.denizdurumu.com/city/?apikey=%@",APIHOST,APIKEY];
+    DDAppDelegate *mainDelegate = (DDAppDelegate *)[[UIApplication sharedApplication]delegate];
+    NSString *urls = [NSString stringWithFormat:@"http://%@.denizdurumu.com/city/%@/?apikey=%@",APIHOST1,mainDelegate.customSearchQuery,APIKEY1];
+    
+	NSLog(@"%@",urls);
+	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:urls]];
+	
+	NSData *response = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+	NSString *json_string = [[NSString alloc] initWithData:response encoding:NSUTF8StringEncoding];
+	
+	NSArray *statuses = [parser objectWithString:json_string error:nil];
+	arryData7 = [[NSMutableArray alloc] init];
+	for (NSDictionary *status in statuses)
+	{
+        
+        [arryData7 addObject:[status objectForKey:@"maxheat"]];
+        
+	}
+    NSEnumerator *enumerator = [arryData7 objectEnumerator];
+    
+    
+    while ( (obj = [enumerator nextObject]) ) {
+        NSLog(@"%@",obj);
+        [mainDelegate setCustomSearchQuery2:obj];
+    }
+	[parser release];
+	[pool release];
+}
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
@@ -85,7 +117,7 @@ NSString const * APIKEY1 = @"91ebe09540369b9eda625437492d678e";
 	[tblDetails release];
 	tblDetails.delegate = self;
 	[imageViews release];
-	
+	[self updateCitys];
 	mapView.mapType = MKMapTypeStandard;
 	mapView.scrollEnabled = YES; 
 	mapView.zoomEnabled = YES; 
@@ -221,11 +253,13 @@ NSString const * APIKEY1 = @"91ebe09540369b9eda625437492d678e";
 - (void)postToWall {
 	
 	NSString *cityorsea = [[NSString alloc] initWithString:self.title];
+    DDAppDelegate *mainDelegate = (DDAppDelegate *)[[UIApplication sharedApplication]delegate];
+    
 	FBStreamDialog* dialog = [[[FBStreamDialog alloc] init] autorelease];
 	dialog.userMessagePrompt = @"Enter your message:";
-	dialog.attachment = [NSString stringWithFormat:@"{\"name\":\"%@ şuanda Deniz Durumu for iPhone kullanıyor. Havar Durumu : %@ - \"}",
-						 _facebookName,cityorsea];
-	//dialog.actionLinks = @"[{\"text\":\"Hemen oku !\",\"href\":\"http://www.apprika.net/\"}]";
+	dialog.attachment = [NSString stringWithFormat:@"{\"name\":\"%@ şuanda bulunduğu yer: %@. Hava Durumu : %@°\"}",
+						 _facebookName,cityorsea,mainDelegate.customSearchQuery2];
+	dialog.actionLinks = @"[{\"text\":\"Sende Uygulamayı indir !\",\"href\":\"http://www.denizdurumu.com/iphone/\"}]";
 	[dialog show];
 	[cityorsea release];
 	
